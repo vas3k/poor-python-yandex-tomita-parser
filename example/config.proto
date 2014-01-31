@@ -1,0 +1,20 @@
+encoding "utf8";
+
+TTextMinerConfig {
+  Dictionary = "dict.gzt";
+  //PrettyOutput = "output.html";
+  NumThreads = 3;
+
+  Output = {
+    Format = xml;
+  }
+
+  Articles = [
+    { Name = "группы" }
+  ]
+
+  Facts = [
+  	{ Name = "Group" },
+    { Name = "Album" }
+  ]
+}

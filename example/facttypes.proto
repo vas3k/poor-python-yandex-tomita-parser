@@ -1,0 +1,12 @@
+import "base.proto";
+import "facttypes_base.proto";
+
+message Group: NFactType.TFact 
+{
+	required string Name = 1;
+}
+
+message Album: NFactType.TFact
+{
+	required string Name = 1;
+}
